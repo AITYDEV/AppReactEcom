@@ -1,0 +1,24 @@
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  flex-direction: column;
+  padding: 1rem;
+  text-align: center;
+}
+.product img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+.product h4 {
+  color: #2707c3;
+}
+.product li {
+  list-style-type: none;
+}
+.product del {
+  text-decoration-color: #ff0000;
+}
+.product strong{
+    color: #0f820f;
+}

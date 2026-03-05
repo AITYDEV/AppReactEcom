@@ -1,0 +1,33 @@
+header {
+  position: fixed;
+
+
+  top: 0;
+  width: 100%;
+  background-color: #2707c3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  color: #fff;
+  z-index: 99999;
+}
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav a {
+  color: #fff;
+  margin-left: 1rem;
+  text-decoration: none;
+  transition: 0.7s;
+  font-weight: bold;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+  }
+}

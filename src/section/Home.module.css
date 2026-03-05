@@ -1,0 +1,68 @@
+.home {
+  padding: 4rem 2rem;
+  background-color: #ecf3f9;
+  text-align: center;
+}
+
+.slogan h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #2707c3;
+}
+
+.slogan p {
+  font-size: 1.2rem;
+  margin: 2rem auto;
+  margin-bottom: 1rem;
+  color: #333;
+  max-width: 800px;
+}
+
+.bestof {
+  display: flex;
+  gap: 4rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.bestof h3 {
+  color: #2707c3;
+  margin: 2rem auto;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 120px;
+  max-width: 180px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.card img {
+  max-width: 80px;
+}
+.card h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #2707c3;
+}
+
+@media (max-width:768px){
+  .grid{
+    flex-direction: column;
+  }
+
+  .bestof{
+    text-align: center;
+  }
+
+
+}
